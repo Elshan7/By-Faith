@@ -725,3 +725,74 @@ footer {
     }
 }
 
+@media (max-width: 992px) {
+
+    main .sct1 {
+        height: auto;
+    }
+
+    main .sct1 .sct1-content {
+        height: auto;
+        flex-wrap: wrap;
+        
+        justify-content: space-between;
+        
+    }
+
+    header .menu nav {
+        display: none;
+    }
+
+    main .sct1 .sct1-content .sct1-text {
+        margin-bottom: 20px;
+    }
+
+    main .sct2 {
+        height: auto;
+    }
+
+    main .sct2 .sct2-content {
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+    }
+
+    main .sct2 .sct2-content .sct2-text {
+        margin: 20px 0;
+        width: 80%;
+    }
+
+    main .sct3 {
+        height: auto;
+    }
+
+    main .sct3 .sct3-container {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    main .sct3 .sct3-container .sct3-content {
+        height: auto;
+    }
+
+    main .sct3 .sct3-container .sct3-title {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    main .sct3 .sct3-container .sct3-content .sct3-img {
+        flex-wrap: wrap;
+    width: 100%;
+    }
+
+    main .sct3 .sct3-container .sct3-content .sct3-about {
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+    }
+
+   
+}
+
